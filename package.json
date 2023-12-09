@@ -3,13 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "directories": {
-    "lib": "lib"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
+  
+  "scripts": {},
   "author": "",
-  "license": "ISC"
+  "license": "MIT",
+  "devDependencies": {
+    "inquirer": "^8.2.4",
+    "mysql2": "^2.2.5",
+    "dotenv": "^8.2.0",
+    "chalk": "^4.0.0",
+    "figlet": "^1.4.0"
+  }
 }
